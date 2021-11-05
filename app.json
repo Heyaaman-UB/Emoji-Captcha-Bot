@@ -7,7 +7,7 @@
         "captcha",
         "bot"
     ],
-    "repository": "https://github.com/AbirHasan2005/Emoji-Captcha-Bot",
+    "repository": "https://github.com/Heyaaman-UB/Emoji-Captcha-Bot",
     "website": "https://telegram.dog/AbirHasan2005",
     "success_url": "https://t.me/JoinOT",
     "env": {
