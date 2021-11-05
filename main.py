@@ -20,7 +20,7 @@ CaptchaDB = {}
 
 @CaptchaBot.on_message(filters.command("start"))
 async def start_handler(_, event: Message):
-    await event.reply_text("Hi, I am captcha bot by @AbirHasan2005.")
+    await event.reply_text("Hi, I am Kazuko.")
 
 
 @CaptchaBot.on_chat_member_updated()
@@ -48,7 +48,7 @@ async def welcome_handler(bot: Client, event: Message):
                 await bot.send_message(
                     chat_id=event.chat.id,
                     text=f"{event.from_user.mention} again joined group without verifying!\n\n"
-                         f"He can try again after 10 minutes.",
+                         f"This user can try again after 10 minutes.",
                     disable_web_page_preview=True
                 )
                 await bot.restrict_chat_member(
